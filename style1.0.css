@@ -1,0 +1,1052 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+nav[data-v-28813d0a] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1b;
+    box-shadow: 0 2.8px 2.2px rgba(0,0,0,.245),0 6.7px 5.3px rgba(0,0,0,.241),0 12.5px 10px rgba(0,0,0,.225),0 22.3px 17.9px rgba(0,0,0,.204),0 41.8px 33.4px rgba(0,0,0,.182),0 100px 80px rgba(0,0,0,.16);
+    height: 6rem;
+    width: 100%;
+    position: fixed;
+    z-index: 9999999;
+    
+}   
+    nav .nav__logo[data-v-28813d0a] {
+    height: 8rem;
+    width: 8rem;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    }
+
+
+
+nav .nav__icono--menu[data-v-28813d0a] {
+    display: none;
+}
+
+nav .nav__icono--menu[data-v-28813d0a] {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-image: url(../RepoGithub/hamburger-menu-minimal-open-icon-842813.png);
+    background-size: cover;
+    background-position: 50%;
+    margin: 0rem 2rem 6rem 0;
+    align-self: center;
+}
+
+  
+  nav .nav__menu--responsive[data-v-28813d0a] {
+    margin: 1rem 2rem 0 0;
+    display: none;
+  }
+
+  nav .nav__menu--responsive a[data-v-28813d0a] {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+  }
+
+  nav .nav__menu--responsive span[data-v-28813d0a] {
+    margin-left: 1rem;
+    color: #37aa9c;
+  }
+
+
+
+.menu--desplegable[data-v-28813d0a] {
+    display: none;
+}
+.menu--desplegable[data-v-28813d0a] {
+    width: 100%;
+    height: 100vh;
+    background-color: #1a1a1b;
+    transform: scale(0);
+    transition-duration: .4s;
+    transform-origin: center;
+    transition-timing-function: linear;
+    display: flex;
+    justify-content: center;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+    align-items: center;
+    position: fixed;
+    z-index: 999999;
+}
+* {
+    box-shadow: border-box;
+    margin: 0;
+      margin-top: 0px;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+.menu--desplegable .menu__enlaces[data-v-28813d0a] {
+    display: none;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    margin-top: 6rem;
+    text-align: center;
+}
+
+* {
+    box-shadow: border-box;
+    margin: 0;
+    margin-top: 0px;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.menu--desplegable[data-v-28813d0a] {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+}
+.menu--desplegable .menu__enlaces[data-v-28813d0a] {
+    text-align: center;
+}
+.menu--desplegable .menu__enlaces a[data-v-28813d0a] {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+}
+
+header {
+  grid-template-columns: repeat(2,1fr);
+}
+header {
+    overflow: hidden;
+    height: calc(100vh - 6rem);
+    background-image: url(../RepoGithub/para\ portada.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2,1fr);
+    text-align: center;
+    align-items: center;
+    padding-top: 6rem;
+}
+* {
+  box-shadow: border-box;
+  margin: 0;
+  padding: 0;
+    padding-top: 0px;
+  scroll-behavior: smooth;
+}
+header h1, header h2 {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif !important; 
+  }
+
+  header h1 {
+    color: #fff;
+    padding: 1.5rem 1rem;
+    background-color: #1a1a1b;
+    box-shadow: 0 2.8px 2.2px rgba(0,0,0,.112),0 6.7px 5.3px rgba(0,0,0,.162),0 12.5px 10px rgba(0,0,0,.2),0 22.3px 17.9px rgba(0,0,0,.238),0 41.8px 33.4px rgba(0,0,0,.288),0 100px 80px rgba(0,0,0,.4);
+    max-width: 700px;
+    margin: 2rem auto -3rem auto;
+    width: auto;
+    font-size: 1.7rem;
+  }
+  * {
+    box-shadow: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  header .animate__animated {
+    --animate-duration: 2s;
+  }
+  header h2 {
+    grid-column: 1/2;
+  }
+  header h2 {
+    color: #1a1a1b;
+    width: 80%;
+    margin: -5rem auto 0 auto;
+    padding: 1rem;
+    background-color: #37aa9c;
+    max-width: 600px;
+    letter-spacing: 1.5px;
+  }
+  header h1, header h2 {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+  }
+  * {
+    box-shadow: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;}
+
+  header .header__icono {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    justify-self: end;
+    margin-right: -1rem;
+  }
+  * {
+    box-shadow: border-box;
+    margin: 0;
+      margin-right: 0px;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+
+  header .header__icono .header__icono__enlace {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .fa, .fas {
+    font-weight: 900;
+  }
+  .fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+  }
+  .fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+  }  
+* {
+  box-shadow: border-box;
+  margin: 0;
+    margin-bottom: 0px;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+  .fa-arrow-circle-down::before {
+    content: "\f0ab";
+  }
+  header .header__icono .header__icono__enlace {
+    color: #fff;
+    font-size: 2rem;
+  }
+  .fa, .fas {
+    font-weight: 900;
+  }
+  fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+  }
+  fa, .fab, .fad, .fal, .far, .fas {
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+  }
+  header .header__proyectos {
+    width: 36rem;
+    height: 27rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    margin-left: 5rem;
+    margin-top: -7rem;
+  }
+  * {
+    box-shadow: border-box;
+    margin: 0;
+      margin-top: 0px;
+      margin-left: 0px;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  html:not(.no-js) [data-aos^="fade"][data-aos^="fade"].aos-animate {
+    opacity: 1;
+    transform: none;
+  }
+  html:not(.no-js) [data-aos^="fade"][data-aos^="fade"] {
+    opacity: 0;
+    transition-property: opacity,transform;
+  }
+  [data-aos][data-aos][data-aos-duration="1000"], body[data-aos-duration="1000"] [data-aos] {
+    transition-duration: 1s;
+  }
+  header .header__proyectos .header__proyectos__proyecto--1 {
+    position: relative;
+    top: 15rem;
+    right: 10rem;
+    z-index: 99999;
+  }
+  [data-aos][data-aos][data-aos-easing="ease"], body[data-aos-easing="ease"] [data-aos] {
+    transition-timing-function: ease;
+  }
+  [data-aos].aos-animate {
+    pointer-events: auto;
+  }
+  * {
+    box-shadow: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  header .header__proyectos .header__proyectos__proyecto--1 img {
+    width: 25rem;
+    height: 15rem;
+    filter: drop-shadow(40px -30px 20px #000);
+  }
+  * {
+    box-shadow: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  [data-aos].aos-animate {
+    pointer-events: auto;
+  }
+  html:not(.no-js) [data-aos^="fade"][data-aos^="fade"].aos-animate {
+    opacity: 1;
+    transform: none;
+  }
+  html:not(.no-js) [data-aos^="fade"][data-aos^="fade"] {
+    opacity: 0;
+    transition-property: opacity,transform;
+  }
+  [data-aos][data-aos][data-aos-duration="2000"], body[data-aos-duration="2000"] [data-aos] {
+    transition-duration: 2s;
+  }
+  header .header__proyectos .header__proyectos__proyecto--2 {
+    width: 5rem;
+    position: relative;
+    top: 0;
+    right: -23rem;
+    z-index: 99999;
+  }
+  [data-aos][data-aos][data-aos-easing="ease"], body[data-aos-easing="ease"] [data-aos] {
+    transition-timing-function: ease;
+  }
+  [data-aos].aos-animate {
+    pointer-events: auto;
+  }
+  * {
+    box-shadow: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  html:not(.no-js) [data-aos^="fade"][data-aos^="fade"].aos-animate {
+    opacity: 1;
+    transform: none;
+  }
+  html:not(.no-js) [data-aos^="fade"][data-aos^="fade"] {
+    opacity: 0;
+    transition-property: opacity,transform;
+  }
+  [data-aos][data-aos][data-aos-duration="3000"], body[data-aos-duration="3000"] [data-aos] {
+    transition-duration: 3s;
+  }
+  header .header__proyectos .header__proyectos__proyecto--3 {
+    position: relative;
+    top: -25rem;
+    right: 0;
+    z-index: 999;
+  }
+  [data-aos][data-aos][data-aos-easing="ease"], body[data-aos-easing="ease"] [data-aos] {
+    transition-timing-function: ease;
+  }
+  [data-aos].aos-animate {
+    pointer-events: auto;
+  }
+  * {
+    box-shadow: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  header .header__proyectos .header__proyectos__proyecto--3 img {
+    width: 35rem;
+    height: 25rem;
+    filter: drop-shadow(40px 30px 30px #000);
+  }
+  * {
+    box-shadow: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+
+
+
+main {
+  background-color: #1a1a1b;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 10rem;
+}
+* {
+    box-shadow: border-box;
+    margin: 0;
+    padding: 0;
+    padding-top: 0px;
+    scroll-behavior: smooth;
+  }
+  main h2 {
+    text-align: center;
+    padding: 1rem;
+    background-color: #37aa9c;
+    width: auto;
+    margin: 0 auto -5rem auto;
+    max-width: 15rem;
+    color: #1a1a1b;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif !important;
+
+  }
+  main .sobreMi {
+    margin-top: 10rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding-bottom: 5rem;
+    background-image: url(../RepoGithub/croquis2.jpg);
+    background-size: cover;
+    background-position: 50%;
+  }
+  main .sobreMi .contenedor---img {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 4rem;
+  }
+  main .sobreMi .contenedor---img .sobreMi__img, main .sobreMi .sobreMi__texto {
+    box-shadow: 0 0 1.8px rgba(0,0,0,.105),0 0 4px rgba(0,0,0,.155),0 0 6.7px rgba(0,0,0,.191),0 0 10.2px rgba(0,0,0,.222),0 0 14.7px rgba(0,0,0,.25),0 0 20.7px rgba(0,0,0,.278),0 0 29.4px rgba(0,0,0,.309),0 0 42.7px rgba(0,0,0,.345),0 0 65.8px rgba(0,0,0,.395),0 0 117px rgba(0,0,0,.5);
+  }
+  main .sobreMi .contenedor---img .sobreMi__img {
+    background-image: url(../RepoGithub/PORTADA.jpg);
+    background-size: cover;
+    background-position: 50%;
+    width: 10rem;
+    height: 10rem;
+    border: 5px solid #1a1a1b;
+    border-radius: 49% 51% 71% 29%/40% 30% 70% 60%;
+    margin: 0 auto -6rem auto;
+  }
+
+  main .sobreMi .sobreMi__texto {
+    width: auto;
+    height: 50%;
+    max-height: 30rem;
+    padding: 1.5rem;
+    padding-top: 1.5rem;
+    padding-top: 7rem;
+    max-width: 35rem;
+    margin: auto auto;
+    background-color: #2d2d2e;
+  }
+  main .sobreMi .contenedor---img .sobreMi__img, main .sobreMi .sobreMi__texto {
+    box-shadow: 0 0 1.8px rgba(0,0,0,.105),0 0 4px rgba(0,0,0,.155),0 0 6.7px rgba(0,0,0,.191),0 0 10.2px rgba(0,0,0,.222),0 0 14.7px rgba(0,0,0,.25),0 0 20.7px rgba(0,0,0,.278),0 0 29.4px rgba(0,0,0,.309),0 0 42.7px rgba(0,0,0,.345),0 0 65.8px rgba(0,0,0,.395),0 0 117px rgba(0,0,0,.5);
+  }
+  main .sobreMi .sobreMi__texto p {
+    text-align: center;
+    color: #37aa9c;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+    font-size: 1.2rem;
+  }
+  main .portafolio, main .portafolio__titulo {
+    background-color: #1a1a1b;
+    position: relative;
+  }
+
+  main .portafolio__titulo {
+    text-align: center;
+    padding: 1rem;
+    width: auto;
+    margin: 13rem auto -17rem auto;
+    max-width: 15rem;
+    z-index: 99999;
+    color: #37aa9c;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+  }
+  main .portafolio {
+    max-height: 100rem;
+    grid-template-columns: repeat(3,1fr);
+  }main .portafolio {
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    height: 150rem;
+    max-height: 300rem;
+  }
+  main .portafolio {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 800'%3E%3Cpath fill='%231b2a29' d='M800 100L0 200v600h1600V200z'/%3E%3Cpath fill='%231c3a38' d='M800 200L0 400v400h1600V400z'/%3E%3Cpath fill='%231d4a46' d='M800 300L0 600v200h1600V600z'/%3E%3Cpath fill='%231e5b54' d='M1600 800L800 400 0 800z'/%3E%3Cpath fill='%231f6b62' d='M1280 800L800 500 320 800z'/%3E%3Cpath fill='%23207b71' d='M533.3 800h533.4L800 600z'/%3E%3Cpath fill='%23218B7F' d='M684.1 800h230.2L800 700z'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 9999;
+    height: auto;
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-height: 350rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+  }
+  main .portafolio, main .portafolio__titulo {
+    background-color: #1a1a1b;
+    position: relative;
+  }
+* {
+    box-shadow: border-box;
+    margin: 0;
+    margin-top: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    scroll-behavior: smooth;
+  }
+  main .portafolio .portafolio__proyecto.portafolio__proyecto--1 {
+    margin-top: 10rem;
+  }
+
+  html:not(.no-js) [data-aos^="fade"][data-aos^="fade"] {
+    opacity: 0;
+    transition-property: opacity,transform;
+  }
+  [data-aos][data-aos][data-aos-duration="1000"], body[data-aos-duration="1000"] [data-aos] {
+    transition-duration: 1s;
+  }
+  main .portafolio .portafolio__proyecto {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 0px;
+    background-color: #1a1a1b;
+    max-width: 30rem;
+    min-width: 15rem;
+    box-shadow: 0 2.8px 2.2px rgba(0,0,0,.16),0 6.7px 5.3px rgba(0,0,0,.23),0 12.5px 10px rgba(0,0,0,.285),0 22.3px 17.9px rgba(0,0,0,.34),0 41.8px 33.4px rgba(0,0,0,.41),0 100px 80px rgba(0,0,0,.57);
+  }
+  
+  html:not(.no-js) [data-aos="fade-left"] {
+    transform: translate3d(100px,0,0);
+  }
+  [data-aos][data-aos][data-aos-easing="ease"], body[data-aos-easing="ease"] [data-aos] {
+    transition-timing-function: ease;
+  }
+  [data-aos] {
+    pointer-events: none;
+  }
+  * {
+    box-shadow: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  main .portafolio .portafolio__proyecto .portafolio__proyecto__img--1 {
+    background-image: url(../img/lacavi.e21985c2.png);
+    background-position: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+main .portafolio .portafolio__proyecto .portafolio__proyecto__img--1 {
+
+    background-image: url(../img/lacavi.e21985c2.png);
+    background-position: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+main .portafolio .portafolio__proyecto .portafolio__proyecto__img {
+
+    width: 100%;
+    height: 20rem;
+    margin: 0 auto;
+
+}
+* {
+    box-shadow: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  main .portafolio .portafolio__proyecto .portafolio__proyecto__texto {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background-color: #1a1a1b;
+  }
+  * {
+    box-shadow: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  main .portafolio .portafolio__proyecto .portafolio__proyecto__texto p {
+    padding: 1.5rem;
+  }
+  button, p {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  * {
+    box-shadow: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  main .portafolio .portafolio__proyecto .portafolio__proyecto__btn {
+    display: flex;
+    justify-content: space-around;
+  }
+  * {
+    box-shadow: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  main .portafolio .portafolio__proyecto .portafolio__proyecto__btn button {
+    margin: 2rem 2rem;
+    padding: .5rem;
+    border: none;
+    background-color: #37aa9c;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    box-shadow: 0 2.8px 2.2px rgba(0,0,0,.16),0 6.7px 5.3px rgba(0,0,0,.23),0 12.5px 10px rgba(0,0,0,.285),0 22.3px 17.9px rgba(0,0,0,.34),0 41.8px 33.4px rgba(0,0,0,.41),0 100px 80px rgba(0,0,0,.57);
+  }
+* {
+    box-shadow: border-box;
+    margin: 0;
+      margin-top: 0px;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+
+  main .portafolio .portafolio__proyecto .portafolio__proyecto__btn {
+    display: flex;
+    justify-content: space-around;
+  }
+  * {
+    box-shadow: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  main .portafolio .portafolio__proyecto.portafolio__proyecto--2, main .portafolio .portafolio__proyecto.portafolio__proyecto--3, main .portafolio .portafolio__proyecto.portafolio__proyecto--4, main .portafolio .portafolio__proyecto.portafolio__proyecto--5, main .portafolio .portafolio__proyecto.portafolio__proyecto--6 {
+    margin-top: 10rem;
+  }
+  html:not(.no-js) [data-aos^="fade"][data-aos^="fade"] {
+    opacity: 0;
+    transition-property: opacity,transform;
+  }
+  [data-aos][data-aos][data-aos-duration="1500"], body[data-aos-duration="1500"] [data-aos] {
+    transition-duration: 1.5s;
+  }
+  main .portafolio .portafolio__proyecto {
+    width: 90%;
+    margin: 0 auto;
+      margin-top: 0px;
+    background-color: #1a1a1b;
+    max-width: 30rem;
+    min-width: 15rem;
+    box-shadow: 0 2.8px 2.2px rgba(0,0,0,.16),0 6.7px 5.3px rgba(0,0,0,.23),0 12.5px 10px rgba(0,0,0,.285),0 22.3px 17.9px rgba(0,0,0,.34),0 41.8px 33.4px rgba(0,0,0,.41),0 100px 80px rgba(0,0,0,.57);
+  }
+  html:not(.no-js) [data-aos="fade-up"] {
+    transform: translate3d(0,100px,0);
+  }
+  [data-aos][data-aos][data-aos-easing="ease"], body[data-aos-easing="ease"] [data-aos] {
+    transition-timing-function: ease;
+  }
+  [data-aos] {
+    pointer-events: none;
+  }
+  main .portafolio .portafolio__proyecto .portafolio__proyecto__img--2 {
+    background-image: url(../img/AjedrejosCaptura.9ab9003d.webp);
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  main .portafolio .portafolio__proyecto .portafolio__proyecto__img {
+    width: 100%;
+    height: 20rem;
+    margin: 0 auto;
+  }
+  * {
+    box-shadow: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  main .portafolio .portafolio__proyecto .portafolio__proyecto__texto {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background-color: #1a1a1b;
+  }
+  main .portafolio .portafolio__proyecto .portafolio__proyecto__texto p {
+    padding: 1.5rem;
+  }
+  button, p {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  main .portafolio .portafolio__proyecto .portafolio__proyecto__btn {
+    display: flex;
+    justify-content: space-around;
+  }
+  main .portafolio .portafolio__proyecto .portafolio__proyecto__img--3 {
+    background-image: url(../img/artesanova.af55d77e.png);
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  main .portafolio .portafolio__proyecto .portafolio__proyecto__img {
+    width: 100%;
+    height: 20rem;
+    margin: 0 auto;
+  }
+  main .portafolio .portafolio__proyecto .portafolio__proyecto__texto {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background-color: #1a1a1b;
+  }
+  main .portafolio .portafolio__proyecto .portafolio__proyecto__img--4 {
+    background-image: url(../img/proyecto4.98b2e7e1.webp);
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  main .portafolio .portafolio__proyecto .portafolio__proyecto__img--5 {
+    background-image: url(../img/proyecto5.cb0f76db.webp);
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  main .portafolio .portafolio__proyecto .portafolio__proyecto__img--6 {
+    background-image: url(../img/crud.da06cc83.png);
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  main .portafolio .portafolio__proyecto .portafolio__proyecto__btn {
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+  main .relleno {
+    width: 100%;
+    height: 40rem;
+    background-color: #1a1a1b;
+    margin-top: -30rem;
+    z-index: 99;
+  }
+
+  main .formulario {
+    height: 50rem;
+  }
+  main .formulario {
+    background-color: #1a1a1b;
+    height: 50rem;
+    margin-bottom: 15rem;
+    margin-top: 5rem;
+  }
+  main .formulario .formulario__titulo {
+    text-align: center;
+    padding: 1rem;
+    background-color: #37aa9c;
+    width: auto;
+    margin: 0 auto;
+    max-width: 15rem;
+    font-weight: 900;
+    color: #1a1a1b;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+    font-size: 1.5rem;
+  }
+  main .formulario .formulario__contenedor {
+    box-shadow: 0 0 1.8px rgba(0,0,0,.105),0 0 4px rgba(0,0,0,.155),0 0 6.7px rgba(0,0,0,.191),0 0 10.2px rgba(0,0,0,.222),0 0 14.7px rgba(0,0,0,.25),0 0 20.7px rgba(0,0,0,.278),0 0 29.4px rgba(0,0,0,.309),0 0 42.7px rgba(0,0,0,.345),0 0 65.8px rgba(0,0,0,.395),0 0 117px rgba(0,0,0,.5);
+    width: 85%;
+    height: auto;
+    background-color: #2d2d2e;
+    margin: 0 auto;
+    max-width: 50rem;
+    padding-bottom: 3rem;
+    max-height: 30rem;
+  }
+  main .formulario .formulario__contenedor .formulario__contenedor__form {
+    text-align: center;
+    gap: 1rem;
+    padding: 2rem;
+  }
+  main .formulario {
+    height: 50rem;
+  }
+  main .formulario {
+    background-color: #1a1a1b;
+    height: 50rem;
+    margin-bottom: 15rem;
+    margin-top: 5rem;}
+
+  main .formulario .formulario__contenedor .formulario__contenedor__form .cuerpo__formulario {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  html:not(.no-js) [data-aos^="fade"][data-aos^="fade"].aos-animate {
+    opacity: 1;
+    transform: none;
+  }
+  main .formulario .formulario__contenedor .formulario__contenedor__form input {
+    width: 80%;
+    max-width: 20rem;
+    margin: 0 auto 1.5rem auto;
+    border: none;
+      border-bottom-color: currentcolor;
+      border-bottom-style: none;
+      border-bottom-width: medium;
+    border-bottom: 2px solid #fff;
+    background-color: #2d2d2e;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    outline: none;
+  }
+
+html:not(.no-js) [data-aos^="fade"][data-aos^="fade"] {
+  opacity: 0;
+  transition-property: opacity,transform;
+}
+
+[data-aos][data-aos][data-aos-duration="300"], body[data-aos-duration="300"] [data-aos] {
+    transition-duration: .3s;
+  }
+  [data-aos][data-aos][data-aos-easing="ease"], body[data-aos-easing="ease"] [data-aos] {
+    transition-timing-function: ease;
+  }
+  [data-aos].aos-animate {
+    pointer-events: auto;
+  }
+  main .formulario .formulario__contenedor .formulario__contenedor__form .parte1__form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  main .formulario .formulario__contenedor .formulario__contenedor__form h3 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: .4rem;
+    margin-top: .4rem;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+    color: #37aa9c;
+    font-size: 1rem;
+  }
+* {
+    box-shadow: border-box;
+    margin: 0;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  main .formulario .formulario__contenedor .formulario__contenedor__form input {
+    width: 80%;
+    max-width: 20rem;
+    margin: 0 auto 1.5rem auto;
+    border: none;
+      border-bottom-color: currentcolor;
+      border-bottom-style: none;
+      border-bottom-width: medium;
+    border-bottom: 2px solid #fff;
+    background-color: #2d2d2e;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    outline: none;
+  }
+  html:not(.no-js) [data-aos^="fade"][data-aos^="fade"] {
+    opacity: 0;
+    transition-property: opacity,transform;
+  }
+  [data-aos][data-aos][data-aos-duration="800"], body[data-aos-duration="800"] [data-aos] {
+    transition-duration: .8s;
+  }
+  html:not(.no-js) [data-aos="fade-up-right"] {
+    transform: translate3d(-100px,100px,0);
+  }
+  [data-aos][data-aos][data-aos-easing="ease"], body[data-aos-easing="ease"] [data-aos] {
+    transition-timing-function: ease;
+  }
+  [data-aos] {
+    pointer-events: none;
+  }
+
+  main .formulario .formulario__contenedor .formulario__contenedor__form h3 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: .4rem;
+    margin-top: .4rem;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+    color: #37aa9c;
+    font-size: 1rem;
+  }
+  * {
+    box-shadow: border-box;
+    margin: 0;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  main .formulario .formulario__contenedor .formulario__contenedor__form input {
+    width: 80%;
+    max-width: 20rem;
+    margin: 0 auto 1.5rem auto;
+    border: none;
+      border-bottom-color: currentcolor;
+      border-bottom-style: none;
+      border-bottom-width: medium;
+    border-bottom: 2px solid #fff;
+    background-color: #2d2d2e;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    outline: none;
+  }
+  html:not(.no-js) [data-aos^="fade"][data-aos^="fade"] {
+    opacity: 0;
+    transition-property: opacity,transform;
+  }
+  [data-aos][data-aos][data-aos-duration="1300"], body[data-aos-duration="1300"] [data-aos] {
+    transition-duration: 1.3s;
+  }
+  html:not(.no-js) [data-aos="fade-up-right"] {
+    transform: translate3d(-100px,100px,0);
+  }
+  [data-aos][data-aos][data-aos-easing="ease"], body[data-aos-easing="ease"] [data-aos] {
+    transition-timing-function: ease;
+  }
+
+
+  main .formulario .formulario__contenedor__form #mensaje {
+    height: 11rem;
+  }
+  main .formulario .formulario__contenedor .formulario__contenedor__form textarea {
+    width: 80%;
+    margin: 1.5rem auto;
+      margin-bottom: 1.5rem;
+    height: 7rem;
+    border: 2px solid #fff;
+    background-color: #2d2d2e;
+    color: #fff;
+    padding: .5rem;
+    margin-bottom: 3rem;
+    outline: none;
+  }
+  html:not(.no-js) [data-aos^="fade"][data-aos^="fade"] {
+    opacity: 0;
+    transition-property: opacity,transform;
+  }
+  [data-aos][data-aos][data-aos-duration="1800"], body[data-aos-duration="1800"] [data-aos] {
+    transition-duration: 1.8s;
+  }
+  html:not(.no-js) [data-aos="fade-up-right"] {
+    transform: translate3d(-100px,100px,0);
+  }
+  [data-aos][data-aos][data-aos-easing="ease"], body[data-aos-easing="ease"] [data-aos] {
+    transition-timing-function: ease;
+  }
+
+  main .formulario .formulario__contenedor .formulario__contenedor__form .btn-form {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    padding: .5rem;
+    border: none;
+    background-color: #37aa9c;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    box-shadow: 0 0 2.2px rgba(0,0,0,.141),0 0 5.3px rgba(0,0,0,.202),0 0 10px rgba(0,0,0,.25),0 0 17.9px rgba(0,0,0,.298),0 0 33.4px rgba(0,0,0,.359),0 0 80px rgba(0,0,0,.5);
+    max-width: 15rem;
+  }
+  footer {
+    width: 100%;
+    height: 25rem;
+    box-shadow: 0 0 1.8px rgba(0,0,0,.105),0 0 4px rgba(0,0,0,.155),0 0 6.7px rgba(0,0,0,.191),0 0 10.2px rgba(0,0,0,.222),0 0 14.7px rgba(0,0,0,.25),0 0 20.7px rgba(0,0,0,.278),0 0 29.4px rgba(0,0,0,.309),0 0 42.7px rgba(0,0,0,.345),0 0 65.8px rgba(0,0,0,.395),0 0 117px rgba(0,0,0,.5);
+    background-color: #252525;
+    margin-top: -10rem;
+  }
+  footer h2, footer p {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+    text-align: center;
+  }
+  
+  footer h2 {
+    color: #fff;
+    letter-spacing: 5px;
+    padding-top: 4rem;
+  }
+  footer hr {
+    margin-top: 3rem;
+  }
+  footer .footer__sociales {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  footer .footer__sociales .icono {
+    font-size: 1.7rem;
+    color: #fff;
+    cursor: pointer;
+  }
+  .fab, .far {
+    font-weight: 400;
+  }
+  .fab {
+    font-family: "Font Awesome 5 Brands";
+  }
+  .fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+  }
+  
+.fa-instagram-square::before {
+
+  content: "\e055";
+
+}
+
+
+  .copy {
+    width: 100%;
+    height: 3rem;
+    color: #000;
+    text-align: center;
+    background-color: #37aa9c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+    font-weight: 900;
+  }
+
+
